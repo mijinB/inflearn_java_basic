@@ -53,6 +53,9 @@
  ┗ Ctrl + Alt + V
    ex) getTotalAmount(orders) 입력 후 단축키 실행 ⇒ int totalAmount = getTotalAmount(orders);   //ref>ex>ProductOrderMain2.java 파일 참고
 
+- 필요한 파라미터 보기
+ ┗ 파라미터를 넣는 () 괄호 안에 커서를 두고 Ctrl + P
+
 - GitHub Commit
  ┗ Ctrl + K
 - GitHub Push
@@ -116,3 +119,6 @@
 
 
 *생성자(Construct)
+- 객체를 생성하고 바로 초기값을 할당해야 하는 경우가 많기 때문에 객체를 생성하자마자 즉시 필요한 기능을 수행할 수 있도록 "생성자"라는 기능을 제공한다. (construct>ConstructMain1.java 참고)
+- 생성자의 이름은 클래스 이름과 같아야 한다.
+- 생성자는 반환 타입이 없다. 비워두어야 한다.
