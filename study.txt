@@ -200,7 +200,12 @@
 - final이 붙은 변수는 수정할 수 없다.
 - class에서 final 변수를 선언만 했을 경우에는 생성자에서 초기화 가능, 선언과 초기화를 동시에 했을 경우에는 생성자에서 변경 불가능. (final1>ConstructInit.java & FieldInit.java & FinalFieldMain.java 파일 참고)
 
-*static final (상수)
+*static final (상수 키워드)
 - final 키워드를 사용하면 초기화 값이 변하지 않는다.
 - static 영역은 단 하나만 존재하는 여역이다.
 - 필드 초기화(FieldInit.java)를 사용하는 경우, final 과 static을 붙여서 사용하면 JVM 상에서 하나만 존재하므로 메모리 낭비와 중복 문제를 해결할 수 있다.
+
+*상수(Constant)
+- static final 키워드를 사용한다.
+- 대문자를 사용하고 구분은 _(언더스코어)를 사용한다.
+- 필드를 직접 접근해서 사용한다.
