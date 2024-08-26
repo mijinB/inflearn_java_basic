@@ -199,6 +199,7 @@
 - final = "끝"
 - final이 붙은 변수는 수정할 수 없다.
 - class에서 final 변수를 선언만 했을 경우에는 생성자에서 초기화 가능, 선언과 초기화를 동시에 했을 경우에는 생성자에서 변경 불가능. (final1>ConstructInit.java & FieldInit.java & FinalFieldMain.java 파일 참고)
+- 참조 대상의 객체 값은 변경할 수 있다. 참조형 변수에 final이 붙으면 참조 대상 자체를 다른 대상으로 변경하지 못하는 것이고 참조하는 대상의 값은 변경할 수 있다. (final1>FinalRefMain.java 참고)
 
 *static final (상수 키워드)
 - final 키워드를 사용하면 초기화 값이 변하지 않는다.
