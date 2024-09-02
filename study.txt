@@ -62,6 +62,9 @@
 - Generate
  ┗ Alt + Insert
 
+- Override
+ ┗ Ctrl + O
+
 - GitHub Commit
  ┗ Ctrl + K
 - GitHub Push
