@@ -56,6 +56,15 @@
  ┗ Ctrl + Alt + V
    ex) getTotalAmount(orders) 입력 후 단축키 실행 ⇒ int totalAmount = getTotalAmount(orders);   //ref>ex>ProductOrderMain2.java 파일 참고
 
+- 선언된 부분 합치기
+ ┗ Ctrl + Alt + N  →  커서가 위치해있는 하나만 합칠거면 Inline this ... 선택 / 모두 합칠거면 Inline all ... 선택
+   ex) Cow cow = new Cow();    Animal[] animalArr = {new Dog(), new Cat(), cow};
+           ⇓
+       Animal[] animalArr = {new Dog(), new Cat(), new Cow()};
+
+- 드래그한 부분을 함수로 선언하기
+ ┗ Ctrl + Alt + M
+
 - 필요한 파라미터 보기
  ┗ 파라미터를 넣는 () 괄호 안에 커서를 두고 Ctrl + P
 
