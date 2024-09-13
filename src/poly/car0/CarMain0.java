@@ -1,7 +1,4 @@
-package poly;
-
-import poly.car0.Driver;
-import poly.car0.K3Car;
+package poly.car0;
 
 public class CarMain0 {
     public static void main(String[] args) {
